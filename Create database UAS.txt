@@ -17,7 +17,7 @@ CREATE TABLE `movie` (
 CREATE TABLE `rent` (
   `rentId` int(11) NOT NULL AUTO_INCREMENT,
   `rentDate` date NOT NULL,
-  `returnDate` date NOT NULL,
+  `returnDate` date ,
   `movieId` int(11) NOT NULL,
   `userId` int(11) NOT NULL,
   PRIMARY KEY (`rentId`),

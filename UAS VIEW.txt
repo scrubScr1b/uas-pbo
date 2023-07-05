@@ -69,9 +69,9 @@ Pilih[1/2/3]:
 
 Movie view :
 =    MOVIE LIST     =
-1. Movie Title "Perempuan Tanah Sengketa", Genre "Horor"
-2. Movie Title "Warkop DIY", Genre "Humor"
-3. Movie Title "Mendadak Miskin", Genre "Drama"
+1. Movie Title "Perempuan Tanah Sengketa" Genre "Horor"
+2. Movie Title "Warkop DIY" Genre "Humor"
+3. Movie Title "Mendadak Miskin" Genre "Drama"
 
 
 Add Movie :
@@ -106,14 +106,37 @@ menu Rent :
 0.ExitApp
 Pilih[1/2/3/4]:
 
-rentView :
+rent list view :
 =    RENT LIST     =
-1. Movie Title "Perempuan Tanah Sengketa", Genre "Horor"
-2. Movie Title "Warkop DIY", Genre "Humor"
-3. Movie Title "Mendadak Miskin", Genre "Drama"
+1. user "Rafly" movie "Perempuan Tanah Sengketa" rent date "2022-01-01" return date ""
+2. user "Bambang" movie "Warkop DIY" rent date "2022-01-01" return date "2022-03-01"
+3. user "Dimas" movie "Mendadak Miskin" rent date "2022-06-01" return date "2022-10-01"
 
 
+rentView :
+=    ADD RENT     =
+List Movie : 
+1. Movie Title "Perempuan Tanah Sengketa" Genre "Horor"
+2. Movie Title "Warkop DIY" Genre "Humor"
+3. Movie Title "Mendadak Miskin" Genre "Drama"
 
+enter the id of the movie you want to rent : 1
+
+SUCESS - film successfully rented
+
+return rent 
+=    RETURN RENT     =
+List Movie : 
+1. user "Rafly" movie "Perempuan Tanah Sengketa" rent date "2022-01-01" return date ""
+
+enter the id of the movie you want to return : 1
+
+SUCESS - film successfully returned
+
+
+list active rent view :
+=    RENT LIST     =
+1. user "Rafly" movie "Perempuan Tanah Sengketa" rent date "2022-01-01" return date ""
 
 
 
