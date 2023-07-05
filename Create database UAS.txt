@@ -1,0 +1,28 @@
+Create database UAS
+
+CREATE TABLE `user` (
+  `userId` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `pass` varchar(20) NOT NULL,
+  PRIMARY KEY (`userId`)
+) 
+
+CREATE TABLE `movie` (
+  `movieId` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) NOT NULL,
+  `genre` varchar(20) NOT NULL,
+  PRIMARY KEY (`movieId`),
+) 
+
+CREATE TABLE `rent` (
+  `rentId` int(11) NOT NULL AUTO_INCREMENT,
+  `rentDate` date NOT NULL,
+  `returnDate` date NOT NULL,
+  `movieId` int(11) NOT NULL,
+  `userId` int(11) NOT NULL,
+  PRIMARY KEY (`rentId`),
+  KEY `rent_FK` (`movieId`),
+  KEY `rent_FK_1` (`userId`),
+  CONSTRAINT `rent_FK` FOREIGN KEY (`movieId`) REFERENCES `movie` (`movieId`),
+  CONSTRAINT `rent_FK_1` FOREIGN KEY (`userId`) REFERENCES `user` (`userId`)
+) 

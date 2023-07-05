@@ -1,0 +1,176 @@
+LOGIN
+
+welcome view:
+
+=    WELCOME TO OUR MOVIE RENT APP     =
+1.Login
+2.User List
+3.Register
+4.Change Password
+0.ExitApp
+Pilih[1/2/3/4]:
+
+login view :
+=    LOGIN     =
+name :
+password :
+
+LOGIN SUCCES !! / LOGIN FAILED - 
+
+user list view :
+=    USER LIST     =
+1.Rafly
+2.Dimas
+3.Bambang
+
+
+register view :
+=    REGISTER     =
+name :
+password :
+re-password :
+
+REGISTER SUCCES !! / REGISTER FAILED - 
+
+change password :
+=    CHANGE PASSWORD     =
+name :
+old password :
+FAILED - Invalid name or password
+FAILED - user is not exist
+
+new password :
+re-new password :
+
+SUCESS - Password has been updated
+
+==============================================================================
+
+MENU
+menu awal :
+=    MENU     =
+1.Movie
+2.Rent
+0.ExitApp
+Pilih[1/2/3/4]:
+
+==============================================================================
+
+MOVIE
+
+menu Movie :
+=    MOVIE     =
+1.Movie List
+2.Add Movie
+3.Delete Movie
+0.ExitApp
+Pilih[1/2/3]:
+
+
+Movie view :
+=    MOVIE LIST     =
+1. Movie Title "Perempuan Tanah Sengketa", Genre "Horor"
+2. Movie Title "Warkop DIY", Genre "Humor"
+3. Movie Title "Mendadak Miskin", Genre "Drama"
+
+
+Add Movie :
+=    ADD MOVIE     =
+Title :
+Genre :
+
+SUCESS - Movie has been added
+
+
+
+deleteMovie view :
+=    MOVIE LIST     =
+1. Movie Title "Perempuan Tanah Sengketa" Genre "Horor"
+2. Movie Title "Warkop DIY" Genre "Humor"
+3. Movie Title "Mendadak Miskin" Genre "Drama"
+
+enter the id you want to delete : 
+
+SUCESS - Movie has been deleted
+
+==============================================================================
+	
+RENT
+
+menu Rent :
+=    RENT     =
+1.Rent List
+2.Add Rent
+3.Return Rent
+4.List Active Rent
+0.ExitApp
+Pilih[1/2/3/4]:
+
+rentView :
+=    RENT LIST     =
+1. Movie Title "Perempuan Tanah Sengketa", Genre "Horor"
+2. Movie Title "Warkop DIY", Genre "Humor"
+3. Movie Title "Mendadak Miskin", Genre "Drama"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
