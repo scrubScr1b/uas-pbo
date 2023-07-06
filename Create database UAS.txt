@@ -11,7 +11,7 @@ CREATE TABLE `movie` (
   `movieId` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) NOT NULL,
   `genre` varchar(20) NOT NULL,
-  PRIMARY KEY (`movieId`),
+  PRIMARY KEY (`movieId`)
 ) 
 
 CREATE TABLE `rent` (
